@@ -15,11 +15,13 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
+	<?php if ( is_single() ) : ?>
 		<?php lifeisgood_entry_meta(); ?>
 		<?php edit_post_link( __( 'Edit', 'lifeisgood' ), '<span class="edit-link">', '</span>' ); ?>
 		<?php if ( get_the_author_meta( 'description' ) && is_multi_author() ) : ?>
 			<?php get_template_part( 'author-bio' ); ?>
 		<?php endif; ?>
+	<?php endif; // is_single() ?>
 	</footer><!-- .entry-meta -->
 
 </article><!-- #post -->

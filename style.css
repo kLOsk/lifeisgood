@@ -4,7 +4,7 @@ Theme URI: http://wordpress.org/themes/lifeisgood
 Author: Daniel Klose
 Author URI: http://www.daniel-klose.com/
 Description: Life Is Good is a sleek blog theme based on the awesome TwentyThirteen theme from WordPress and its modification McKinley by ThemeTrust.
-Version: 1.0.4
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, flexible-width, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
@@ -598,7 +598,7 @@ textarea {
 	border: 1px solid rgba(0,0,0,.05);
 	border-bottom: 2px solid rgba(0,0,0,.1);
 	background:	#f7f7f7;
-	font-size: .9rem;
+	font-size: 1.4rem;
 	-webkit-appearance: none;
 }
 
@@ -906,7 +906,7 @@ div.nav-menu > ul {
 .nav-menu li a {
 	color: #b4b4b4;
 	display: block;
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	line-height: 1;
 	padding: 0 15px;
 	text-decoration: none;
@@ -928,7 +928,7 @@ div.nav-menu > ul {
 	position: absolute;
 	left: -2px;
 	z-index: 99999;
-	padding: 20px 0 20px 10px;
+	padding: 10px 0 10px 10px;
 	text-align: left !important;
 }
 
@@ -1500,18 +1500,6 @@ footer.entry-meta {
 	background-color: #6f8a79;
 }
 
-.format-audio .entry-content:before {
-	content: "\f109";
-	display: block;
-	float: none;
-	font-family: Genericons;
-	font-size: 64px;
-	-webkit-font-smoothing: antialiased;
-	height: 100%;
-	line-height: 1;
-	width: 120px;
-}
-
 .format-audio .entry-header{
 
 }
@@ -1536,6 +1524,7 @@ footer.entry-meta {
 }
 
 .format-audio .audio-content {
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -1571,7 +1560,7 @@ footer.entry-meta {
 .format-chat .chat .chat-timestamp {
 	color: #722d19;
 	float: right;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: normal;
 	margin: 5px 10px 0;
 }
@@ -1659,11 +1648,23 @@ footer.entry-meta {
 	padding-top: 65px;
 	color: #fff;
 	font-size: 2.8rem;
-	text-align: center
+	text-align: center;
 }
 
 .format-link a {
-	color: rgba(255,255,255,.8);
+	color: rgba(255,255,255,.7);
+}
+
+.format-link p:before {
+	background-size: 4px 4px;
+	content: "\f107";
+	font-family: Genericons;
+	font-size: 5.4rem;
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+	line-height: 1;
+	position: relative;
+	top: 18px;
 }
 
 .format-link a:hover {
@@ -2043,7 +2044,7 @@ footer.entry-meta {
 }
 
 #content .navigation a{
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	display: inline-block;
 	color: #adadad!important;
 	padding: 10px 14px 10px !important;
@@ -2308,6 +2309,7 @@ footer.entry-meta {
 .comment-author {
 	float: left;
 	max-width: 74px;
+	text-align: center;
 }
 
 .comment-author .avatar {
@@ -2572,7 +2574,7 @@ footer.entry-meta {
  */
 
 .widget {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	-webkit-hyphens: auto;
 	-moz-hyphens:    auto;
 	-ms-hyphens:     auto;
@@ -2583,7 +2585,7 @@ footer.entry-meta {
 }
 
 .widget .widget-title {
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 	margin: 0 0 10px;
 }
 
@@ -2639,7 +2641,7 @@ footer.entry-meta {
 }
 
 .widget_calendar caption {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	margin: 0;
 }
 
@@ -2678,7 +2680,7 @@ footer.entry-meta {
 .site-footer {
 	background-color: #422833;
 	color: #858585;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	text-align: center;
 }
 

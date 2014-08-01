@@ -223,7 +223,7 @@ add_filter( 'wp_title', 'lifeisgood_wp_title', 10, 2 );
  */
 function lifeisgood_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Main Widget Area', 'lifeisgood' ),
+		'name'          => __( 'Footer Widget Area', 'lifeisgood' ),
 		'id'            => 'sidebar-1',
 		'description'   => __( 'Appears in the footer section of the site.', 'lifeisgood' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',

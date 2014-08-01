@@ -23,9 +23,6 @@
 				<?php get_template_part( 'author-bio' ); ?>
 			<?php endif; ?>
 
-		<?php else : ?>
-			<?php lifeisgood_entry_date(); ?>
-			<?php edit_post_link( __( 'Edit', 'lifeisgood' ), '<span class="edit-link">', '</span>' ); ?>
 		<?php endif; // is_single() ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post -->

@@ -327,14 +327,14 @@ function lifeisgood_entry_meta() {
 		echo '<span class="tags-links">' . $tag_list . '</span>';
 	}
 
-	// Post author
-	if ( 'post' == get_post_type() ) {
+	 // Post author
+	/* if ( 'post' == get_post_type() ) {
 		printf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s" rel="author">%3$s</a></span>',
 			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
 			esc_attr( sprintf( __( 'View all posts by %s', 'lifeisgood' ), get_the_author() ) ),
 			get_the_author()
 		);
-	}
+	} */
 }
 endif;
 
@@ -502,6 +502,20 @@ function lifeisgood_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 }
 add_action( 'customize_register', 'lifeisgood_customize_register' );
+
+/**
+ * Add custom background for the Customizer.
+ *
+ * @since Life Is Good 1.0
+ *
+ * @return void
+ */
+
+$backargs = array(
+	'default-color' => 'EBEBEB',
+	'default-image' => '%1$s/images/sativa.png',
+);
+add_theme_support( 'custom-background', $backargs );
 
 /**
  * Binds JavaScript handlers to make Customizer preview reload changes

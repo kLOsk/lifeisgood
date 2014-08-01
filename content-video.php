@@ -21,7 +21,7 @@
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 		</h1>
 		<?php endif; // is_single() ?>
-		<div class="entry-meta">
+		<?php if ( is_single() ) : ?> <div class="entry-meta">
 			<?php lifeisgood_entry_meta(); ?>
 
 			<?php if ( comments_open() && ! is_single() ) : ?>
@@ -34,7 +34,7 @@
 			<?php if ( is_single() && get_the_author_meta( 'description' ) && is_multi_author() ) : ?>
 				<?php get_template_part( 'author-bio' ); ?>
 			<?php endif; ?>
-		</div><!-- .entry-meta -->
+		</div><!-- .entry-meta --><?php endif; // is_single() ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

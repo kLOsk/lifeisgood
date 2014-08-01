@@ -14,6 +14,7 @@
 		<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'lifeisgood' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
 	</div><!-- .entry-content -->
 
+<?php /*
 	<footer class="entry-meta">
 		<?php lifeisgood_entry_meta(); ?>
 
@@ -24,4 +25,5 @@
 		<?php endif; // comments_open() ?>
 		<?php edit_post_link( __( 'Edit', 'lifeisgood' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
+*/ ?>
 </article><!-- #post -->

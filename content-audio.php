@@ -32,7 +32,7 @@
 		</div><!-- .audio-content -->
 	</div><!-- .entry-content -->
 
-	<footer class="entry-meta">
+	<?php if ( is_single() ) : ?> <footer class="entry-meta">
 		<?php lifeisgood_entry_meta(); ?>
 		<?php edit_post_link( __( 'Edit', 'lifeisgood' ), '<span class="edit-link">', '</span>' ); ?>
 
@@ -40,4 +40,5 @@
 			<?php get_template_part( 'author-bio' ); ?>
 		<?php endif; ?>
 	</footer><!-- .entry-meta -->
+	<?php endif; // is_single() ?>
 </article><!-- #post -->

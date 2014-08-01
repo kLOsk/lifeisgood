@@ -118,10 +118,10 @@ textarea {
 }
 
 body {
-	color: #919191;
+	color: #4D4D4D;
 	line-height: 1.5;
 	margin: 0;
-	background: #f1f1f1;
+	/* now part of the customizer background-image:url('images/sativa.png'); */
 	padding: 30px 0 30px;
 	font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -130,12 +130,12 @@ body {
 }
 
 a {
-	color: #6ab4cf;
+	color: #C3C3C3;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #60a4bd;
+	color: #C3C3C3;
 }
 
 a:focus {
@@ -144,7 +144,7 @@ a:focus {
 
 a:active,
 a:hover {
-	color: #60a4bd;
+	color: #ababab;
 	outline: 0;
 }
 
@@ -225,7 +225,7 @@ kbd,
 pre,
 samp {
 	font-family: monospace, serif;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	-webkit-hyphens: none;
 	-moz-hyphens:    none;
 	-ms-hyphens:     none;
@@ -236,7 +236,7 @@ pre {
 	background: #f5f5f5;
 	color: #666;
 	font-family: monospace;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	margin: 20px 0;
 	overflow: auto;
 	padding: 20px;
@@ -433,7 +433,7 @@ table {
 	border-bottom: 1px solid #ededed;
 	border-collapse: collapse;
 	border-spacing: 0;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	line-height: 2;
 	margin: 0 0 20px;
 	width: 100%;
@@ -1091,11 +1091,11 @@ ul.nav-menu li:hover > ul,
 }
 
 .entry-meta a {
-	color: #c3c3c3;
+	color: #4D4D4D;
 }
 
 .entry-meta a:hover {
-	color: #ababab;
+	color: #2D2D2D;
 	text-decoration: none;
 }
 
@@ -1176,12 +1176,12 @@ ul.nav-menu li:hover > ul,
 
 .entry-content a,
 .comment-content a {
-	color: #6cb7d3;
+	color: #C3C3C3;
 }
 
 .entry-content a:hover,
 .comment-content a:hover {
-	color: #5fa1ba;
+	color: #ababab;
 }
 
 .entry-content blockquote {
@@ -1497,7 +1497,19 @@ footer.entry-meta {
 
 /* Audio */
 .format-audio {
+	background-color: #6f8a79;
+}
 
+.format-audio .entry-content:before {
+	content: "\f109";
+	display: block;
+	float: none;
+	font-family: Genericons;
+	font-size: 64px;
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+	line-height: 1;
+	width: 120px;
 }
 
 .format-audio .entry-header{
@@ -1651,7 +1663,7 @@ footer.entry-meta {
 }
 
 .format-link a {
-	color: rgba(255,255,255,.7);
+	color: rgba(255,255,255,.8);
 }
 
 .format-link a:hover {
@@ -1664,7 +1676,7 @@ footer.entry-meta {
 }
 
 .format-link .entry-meta a {
-	color: rgba(255,255,255,.4);
+	color: rgba(255,255,255,.8);
 }
 
 .format-link .entry-meta a:hover {
@@ -1760,6 +1772,8 @@ footer.entry-meta {
 /* Status */
 .format-status {
 	padding: 0;
+	background-color: #6f8a79;
+	min-height: 150px;
 }
 
 .format-status .entry-content,
@@ -1818,11 +1832,12 @@ footer.entry-meta {
 }
 
 .format-status .entry-content p:first-child:before {
+	background-color: rgba(0, 0, 0, 0.5);
 	content: "";
 	height: 3px;
-	margin-top: 13px;
+	margin-top: 18px;
 	position: absolute;
-	left: 4px;
+	left: 16px;
 	width: 13px;
 }
 
@@ -2032,7 +2047,7 @@ footer.entry-meta {
 	display: inline-block;
 	color: #adadad!important;
 	padding: 10px 14px 10px !important;
-	background: #b3b3b3;
+	background: #4fa888;
 	border-radius: 0px;
 	line-height: 1em;
 	font-weight: normal;
@@ -2040,7 +2055,7 @@ footer.entry-meta {
 }
 
 #content .navigation a:hover{
-	background: #a8a8a8;
+	background: #499b7d;
 	text-decoration: none;
 }
 

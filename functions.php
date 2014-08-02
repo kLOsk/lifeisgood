@@ -161,11 +161,11 @@ function lifeisgood_scripts_styles() {
 	wp_enqueue_script( 'lifeisgood-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '2013-07-18', true );
 
 	// Loads FitVids for better responsive videos.
-	wp_enqueue_script('fitvids', get_bloginfo('template_url').'/js/jquery.fitvids.js', array('jquery'), '1.0', true);
+	wp_enqueue_script('fitvids', get_template_directory_uri().'/js/jquery.fitvids.js', array('jquery'), '1.0', true);
 
 	// Loads Flexslider for gallery slideshow.
-	wp_enqueue_style('flexslider', get_bloginfo('template_url').'/css/flexslider.css', false, '2.0', 'all' );
-	wp_enqueue_script('flexslider', get_bloginfo('template_url').'/js/jquery.flexslider-min.js', array('jquery'), '2.0', true);
+	wp_enqueue_style('flexslider', get_template_directory_uri().'/css/flexslider.css', false, '2.0', 'all' );
+	wp_enqueue_script('flexslider', get_template_directory_uri().'/js/jquery.flexslider-min.js', array('jquery'), '2.0', true);
 
 	// Add Raleway font, used in the main stylesheet.
 	wp_enqueue_style( 'lifeisgood-fonts', lifeisgood_fonts_url(), array(), null );

@@ -2987,6 +2987,10 @@ footer.entry-meta {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+
+	.format-image .wp-caption p {
+	font-size: 2.0rem;
+	}
 }
 
 @media (max-width: 643px) {
@@ -3203,6 +3207,12 @@ footer.entry-meta {
 		padding-left: 0;
 		width: auto;
 	}
+
+	/* Image */
+	.format-image .wp-caption p {
+		font-size: 1.8rem;
+	}
+
 	/* Footer */
 	.site-info {
 		text-align: center;
@@ -3277,6 +3287,12 @@ footer.entry-meta {
 	.comment-content,
 	.comment-list .reply {
 		width: 100%;
+	}
+
+	/* Image */
+	.format-image .wp-caption p {
+		font-size: 1.4rem;
+		bottom: 10px;
 	}
 
 }

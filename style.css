@@ -476,6 +476,15 @@ hr {
 	margin: 0 0 24px;
 }
 
+/** JetPack Styling **/
+h3.sd-title {
+	font-size: 2.2rem !important;
+}
+
+.sd-content {
+	font-size: 1.8rem !important;
+}
+
 
 /**
  * 2.0 Repeatable Patterns
@@ -1860,6 +1869,11 @@ footer.entry-meta {
 }
 
 /* Video */
+.format-video {
+	padding: 0;
+	background-color: #6f8a79
+}
+
 .format-video .entry-title{
 		padding-top: 40px;
 }

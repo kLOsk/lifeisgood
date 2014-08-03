@@ -21,6 +21,9 @@ Genericons http://genericons.com/ licensed under GPLv2 - http://www.gnu.org/lice
 Yanone Kaffeesatz http://www.google.com/fonts/specimen/Yanone+Kaffeesatz licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
 Josefin Sans http://www.google.com/fonts/specimen/Josefin+Sans licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
 
+Backgrounds:
+Sativa http://subtlepatterns.com/sativa/ by Luca Errico http://www.helloluke.com/ licensed under Creative Commons CC BY-SA 3.0
+
 */
 
 
@@ -472,7 +475,7 @@ ins {
 
 hr {
 	border: 1px;
-	height: 1px;
+	border-top: 1px solid #ededed;
 	margin: 0 0 24px;
 }
 
@@ -626,7 +629,7 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-	background: #4fa888; /* Old browsers */
+	background: #6F8A79; /* Old browsers */
 	border: none;
 	border-radius: 0px;
 	color: #fff;
@@ -799,8 +802,8 @@ img.wp-smiley,
 
 .site {
 	background-color: #fff;
-	border-left: 1px solid #f2f2f2;
-	border-right: 1px solid #f2f2f2;
+	border-left: 0px solid #f2f2f2;
+	border-right: 0px solid #f2f2f2;
 	margin: 0 auto;
 	max-width: 1000px;
 	width: 100%;
@@ -1020,7 +1023,7 @@ ul.nav-menu li:hover > ul,
 
 .hentry {
 	background-color: #fff;
-	padding: 0 0 60px;
+	padding: 0 0 30px;
 	border-bottom: 1px solid rgba(0,0,0, .08);
 }
 
@@ -1588,6 +1591,7 @@ footer.entry-meta {
 	position: relative;
 	padding-bottom: 0;
 	background-color: #E5E6D8;
+	border-bottom: 0;
 }
 
 .format-image .wp-caption {
@@ -1873,6 +1877,7 @@ footer.entry-meta {
 .format-video {
 	padding: 0;
 	background-color: #E5E6D8;
+	border-bottom: 0;
 }
 
 .format-video .entry-title{
@@ -1886,8 +1891,12 @@ footer.entry-meta {
 
 }
 
-.format-video .entry-header p{
+.format-video .entry-header {
+	margin: 0;
+}
 
+.format-video .entry-header p{
+	margin: 0;
 }
 
 .format-video .entry-title {
@@ -2049,8 +2058,8 @@ footer.entry-meta {
 	font-size: 2.0rem;
 	font-weight: 300;
 	padding: 20px 0;
-	background-color: #f9f9f9;
-	padding: 40px 0;
+	background-color: #EDEDED;
+	padding: 25px 0;
 }
 
 #content .navigation .nav-links{
@@ -2063,7 +2072,7 @@ footer.entry-meta {
 	display: inline-block;
 	color: #adadad!important;
 	padding: 10px 14px 10px !important;
-	background: #4fa888;
+	background: #6F8A79;
 	border-radius: 0px;
 	line-height: 1em;
 	font-weight: normal;
@@ -2251,9 +2260,16 @@ footer.entry-meta {
 	background-color: #e8e5ce;
 }
 
-.error404 .page-header,
+.error404 .page-header {
+	margin: 0 auto;
+	max-width: 1040px;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
 .error404 .page-content {
 	margin: 0 auto;
+	margin: 0 auto 0 30px;
 	max-width: 1040px;
 	padding-bottom: 40px;
 	width: 100%;
@@ -3294,7 +3310,6 @@ footer.entry-meta {
 		font-size: 1.4rem;
 		bottom: 10px;
 	}
-
 }
 
 

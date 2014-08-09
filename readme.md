@@ -28,16 +28,15 @@ Josefin Sans http://www.google.com/fonts/specimen/Josefin+Sans licensed under th
 Backgrounds
 -----------
 Sativa http://subtlepatterns.com/sativa/ by Luca Errico http://www.helloluke.com/ licensed under Creative Commons CC BY-SA 3.0  
-created:  2014 Aug 09  
-modified: 2014 Aug 09  
-
 
 Notes
 -----
-> For best results, featured images should be at least 1000px in width.
-
-> Galleries in a post with gallery post format are automatically displayed as a slider. For best results, these images should be at least 1000px in width.
+* For best results, featured images should be at least 1000px in width.
+* Galleries in a post with gallery post format are automatically displayed as a slider. For best results, these images should be at least 1000px in width.
 
 Screenshot
 ----------
 [![Screenshot](https://github.com/kLOsk/lifeisgood/raw/master/screenshot.png)](#screenshot)
+
+created:  2014 Aug 09  
+modified: 2014 Aug 09  

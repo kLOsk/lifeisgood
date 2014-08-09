@@ -34,6 +34,10 @@ Notes
 * For best results, featured images should be at least 1000px in width.
 * Galleries in a post with gallery post format are automatically displayed as a slider. For best results, these images should be at least 1000px in width.
 
+Demo
+----
+http://lifeisgood.daniel-klose.com
+
 Screenshot
 ----------
 [![Screenshot](https://github.com/kLOsk/lifeisgood/raw/master/screenshot.png)](#screenshot)

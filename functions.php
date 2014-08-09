@@ -29,7 +29,7 @@
  * @see lifeisgood_content_width() for template-specific adjustments.
  */
 if ( ! isset( $content_width ) )
-	$content_width = 604;
+	$content_width = 700;
 
 
 
@@ -484,7 +484,7 @@ function lifeisgood_content_width() {
 	if ( is_attachment() )
 		$content_width = 724;
 	elseif ( has_post_format( 'audio' ) )
-		$content_width = 484;
+		$content_width = 700;
 }
 add_action( 'template_redirect', 'lifeisgood_content_width' );
 

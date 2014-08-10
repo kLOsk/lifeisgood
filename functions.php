@@ -24,6 +24,11 @@
  * @since Life Is Good 1.0
  */
 
+/** Include the Redux options Framework **/
+if ( file_exists( get_template_directory().'/admin/admin-init.php' ) ) {
+    include_once( get_template_directory().'/admin/admin-init.php' );
+}
+
 /**
  * Sets up the content width value based on the theme's design.
  * @see lifeisgood_content_width() for template-specific adjustments.

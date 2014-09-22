@@ -533,14 +533,14 @@ add_action( 'customize_preview_init', 'lifeisgood_customize_preview_js' );
  *
  * @since Life Is Good 1.0
  */
-function the_featured_video( $content ) {
+function lifeisgood_the_featured_video( $content ) {
 	$url = trim( array_shift( explode( "\n", $content ) ) );
 	if ( 0 === strpos( $url, 'http://' ) || preg_match ( '#^<(script|iframe|embed|object)#i', $url )) {
  		echo apply_filters( 'the_content', $url );
  	}
 }
 
-function content_sans_video( $content ) {
+function lifeisgood_content_sans_video( $content ) {
 	$url = trim( array_shift( explode( "\n", $content ) ) );
 	if ( 0 === strpos( $url, 'http://' ) || preg_match ( '#^<(script|iframe|embed|object)#i', $url )) {
  		$content = trim( str_replace( $url, '', $content ) );

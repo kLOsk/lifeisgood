@@ -12,7 +12,7 @@
 	<header class="entry-header">
 		<div class="entry-thumbnail">
 			<?php $content = trim( get_the_content() ); ?>
-			<?php the_featured_video( $content ); ?>
+			<?php lifeisgood_the_featured_video( $content ); ?>
 		</div>
 		<?php if ( is_single() ) : ?>
 		<h1 class="entry-title"><?php the_title(); ?></h1>
@@ -34,7 +34,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php echo content_sans_video( $content ); ?>
+		<?php echo lifeisgood_content_sans_video( $content ); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'lifeisgood' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
 	</div><!-- .entry-content -->
 

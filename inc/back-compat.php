@@ -2,9 +2,8 @@
 /**
  * Life Is Good back compat functionality.
  *
- * Prevents Life Is Good from running on WordPress versions prior to 3.6,
- * since this theme is not meant to be backwards compatible and relies on
- * many new functions and markup changes introduced in 3.6.
+ * Prevents Life Is Good from running on WordPress versions prior to 3.8,
+ * since this theme is not meant to be backwards compatible.
  *
  * @package WordPress
  * @subpackage Life Is Good
@@ -28,33 +27,33 @@ add_action( 'after_switch_theme', 'lifeisgood_switch_theme' );
 
 /**
  * Prints an update nag after an unsuccessful attempt to switch to
- * Life Is Good on WordPress versions prior to 3.6.
+ * Life Is Good on WordPress versions prior to 3.8.
  *
  * @since Life Is Good 1.0
  *
  * @return void
  */
 function lifeisgood_upgrade_notice() {
-	$message = sprintf( __( 'Life Is Good requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again.', 'lifeisgood' ), $GLOBALS['wp_version'] );
+	$message = sprintf( __( 'Life Is Good requires at least WordPress version 3.8. You are running version %s. Please upgrade and try again.', 'lifeisgood' ), $GLOBALS['wp_version'] );
 	printf( '<div class="error"><p>%s</p></div>', $message );
 }
 
 /**
- * Prevents the Customizer from being loaded on WordPress versions prior to 3.6.
+ * Prevents the Customizer from being loaded on WordPress versions prior to 3.8.
  *
  * @since Life Is Good 1.0
  *
  * @return void
  */
 function lifeisgood_customize() {
-	wp_die( sprintf( __( 'Life Is Good requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again.', 'lifeisgood' ), $GLOBALS['wp_version'] ), '', array(
+	wp_die( sprintf( __( 'Life Is Good requires at least WordPress version 3.8. You are running version %s. Please upgrade and try again.', 'lifeisgood' ), $GLOBALS['wp_version'] ), '', array(
 		'back_link' => true,
 	) );
 }
 add_action( 'load-customize.php', 'lifeisgood_customize' );
 
 /**
- * Prevents the Theme Preview from being loaded on WordPress versions prior to 3.4.
+ * Prevents the Theme Preview from being loaded on WordPress versions prior to 3.8.
  *
  * @since Life Is Good 1.0
  *
@@ -62,7 +61,7 @@ add_action( 'load-customize.php', 'lifeisgood_customize' );
  */
 function lifeisgood_preview() {
 	if ( isset( $_GET['preview'] ) ) {
-		wp_die( sprintf( __( 'Life Is Good requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again.', 'lifeisgood' ), $GLOBALS['wp_version'] ) );
+		wp_die( sprintf( __( 'Life Is Good requires at least WordPress version 3.8. You are running version %s. Please upgrade and try again.', 'lifeisgood' ), $GLOBALS['wp_version'] ) );
 	}
 }
 add_action( 'template_redirect', 'lifeisgood_preview' );

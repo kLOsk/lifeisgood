@@ -34,9 +34,9 @@ if ( ! isset( $content_width ) )
 
 
 /**
- * Life Is Good only works in WordPress 3.6 or later.
+ * Life Is Good only works in WordPress 3.8 or later.
  */
-if ( version_compare( $GLOBALS['wp_version'], '3.6-alpha', '<' ) )
+if ( version_compare( $GLOBALS['wp_version'], '3.8', '<' ) )
 	require get_template_directory() . '/inc/back-compat.php';
 
 /**

@@ -255,5 +255,5 @@ msgstr ""
 #: inc/back-compat.php:50
 #: inc/back-compat.php:65
 #, php-format
-msgid "Life Is Good requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgid "Life Is Good requires at least WordPress version 3.8. You are running version %s. Please upgrade and try again."
 msgstr ""

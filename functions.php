@@ -513,7 +513,6 @@ add_action( 'customize_register', 'lifeisgood_customize_register' );
 
 $backargs = array(
 	'default-color' => 'EBEBEB',
-	'default-image' => '%1$s/images/sativa.png',
 );
 add_theme_support( 'custom-background', $backargs );
 

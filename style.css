@@ -1,10 +1,10 @@
 /*
 Theme Name: Life Is Good
-Theme URI: http://lifeisgood.daniel-klose.com
+Theme URI: http://www.daniel-klose.com/online-services/life-is-good-wordpress-theme/
 Author: Daniel Klose
 Author URI: http://www.daniel-klose.com/
 Description: Life Is Good is a sleek personal blog theme based on the awesome TwentyThirteen theme from WordPress and its modification McKinley by ThemeTrust.
-Version: 1.0.3
+Version: 1.0.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, fluid-layout, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
@@ -17,12 +17,9 @@ Responsiveness helped along by Flexslider from WooThemes: https://github.com/woo
 And FitVids by Chirs Coyier and Paravel: http://fitvidsjs.com/ licensed under the WTFPL license - http://sam.zoy.org/wtfpl/.
 
 Fonts used:
-Genericons http://genericons.com/ licensed under GPLv2 - http://www.gnu.org/licenses/gpl-2.0.html.
-Yanone Kaffeesatz http://www.google.com/fonts/specimen/Yanone+Kaffeesatz licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
-Josefin Sans http://www.google.com/fonts/specimen/Josefin+Sans licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
-
-Backgrounds:
-Sativa http://subtlepatterns.com/sativa/ by Luca Errico http://www.helloluke.com/ licensed under Creative Commons CC BY-SA 3.0
+Genericons http://genericons.com/ licensed under GPLv2 - http://www.gnu.org/licenses/gpl-2.0.html. Copyright 2014 by Automattic, Inc.
+Yanone Kaffeesatz http://www.google.com/fonts/specimen/Yanone+Kaffeesatz licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL. Copyright 2014 by Yanone.
+Josefin Sans http://www.google.com/fonts/specimen/Josefin+Sans licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL. Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved.
 
 Images:
 All images used are licensed under Creative Commons Zero http://creativecommons.org/publicdomain/zero/1.0/
@@ -127,7 +124,6 @@ body {
 	color: #4D4D4D;
 	line-height: 1.5;
 	margin: 0;
-	/* now part of the customizer background-image:url('images/sativa.png'); */
 	padding: 30px 0 30px;
 	font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;

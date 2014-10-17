@@ -1,7 +1,7 @@
 Life Is Good
 ============
 **Theme Name:** Life Is Good
-**Theme URI:** http://lifeisgood.daniel-klose.com
+**Theme URI:** http://www.daniel-klose.com/online-services/life-is-good-wordpress-theme/
 **Author:** Daniel Klose
 **Author URI:** http://www.daniel-klose.com/
 
@@ -21,7 +21,7 @@ http://lifeisgood.daniel-klose.com
 
 Version:
 --------
-**1.0.3**
+**1.0.5**
 
 Licensing:
 ----------
@@ -40,11 +40,8 @@ And FitVids by Chirs Coyier and Paravel: http://fitvidsjs.com/ licensed under th
 * Yanone Kaffeesatz http://www.google.com/fonts/specimen/Yanone+Kaffeesatz licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
 * Josefin Sans http://www.google.com/fonts/specimen/Josefin+Sans licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
 
-**Backgrounds**
-* Sativa http://subtlepatterns.com/sativa/ by Luca Errico http://www.helloluke.com/ licensed under Creative Commons CC BY-SA 3.0
-
 **Images**
 * All images used are licensed under Creative Commons Zero http://creativecommons.org/publicdomain/zero/1.0/
 
 created:  2014 Aug 09
-modified: 2014 Sep 23
+modified: 2014 Oct 16

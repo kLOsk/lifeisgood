@@ -36,12 +36,13 @@ Responsiveness helped along by Flexslider from WooThemes: https://github.com/woo
 And FitVids by Chirs Coyier and Paravel: http://fitvidsjs.com/ licensed under the WTFPL license - http://sam.zoy.org/wtfpl/.
 
 **Fonts used**
-* Genericons http://genericons.com/ licensed under GPLv2 - http://www.gnu.org/licenses/gpl-2.0.html.
-* Yanone Kaffeesatz http://www.google.com/fonts/specimen/Yanone+Kaffeesatz licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
-* Josefin Sans http://www.google.com/fonts/specimen/Josefin+Sans licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
+* Genericons http://genericons.com/ licensed under GPLv2 - http://www.gnu.org/licenses/gpl-2.0.html. Copyright 2014 by Automattic, Inc.
+* Yanone Kaffeesatz http://www.google.com/fonts/specimen/Yanone+Kaffeesatz licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL. Copyright 2014 by Yanone.
+* Josefin Sans http://www.google.com/fonts/specimen/Josefin+Sans licensed under the SIL Open Font License, 1.1 - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL. Copyright (c) 2010 by Typemade (hi@typemade.mx). All rights reserved.
+
 
 **Images**
 * All images used are licensed under Creative Commons Zero http://creativecommons.org/publicdomain/zero/1.0/
 
 created:  2014 Aug 09
-modified: 2014 Oct 16
+modified: 2014 Oct 17

@@ -21,7 +21,7 @@ http://lifeisgood.daniel-klose.com
 
 Version:
 --------
-**1.0.5**
+**1.0.6**
 
 Licensing:
 ----------
@@ -45,4 +45,4 @@ And FitVids by Chirs Coyier and Paravel: http://fitvidsjs.com/ licensed under th
 * All images used are licensed under Creative Commons Zero http://creativecommons.org/publicdomain/zero/1.0/
 
 created:  2014 Aug 09
-modified: 2014 Oct 17
+modified: 2014 Dec 11

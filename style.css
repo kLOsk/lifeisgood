@@ -4,7 +4,7 @@ Theme URI: http://www.daniel-klose.com/online-services/life-is-good-wordpress-th
 Author: Daniel Klose
 Author URI: http://www.daniel-klose.com/
 Description: Life Is Good is a sleek personal blog theme based on the awesome TwentyThirteen theme from WordPress and its modification McKinley by ThemeTrust.
-Version: 1.0.5
+Version: 1.0.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, fluid-layout, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
@@ -614,7 +614,6 @@ textarea {
 	border-bottom: 2px solid rgba(0,0,0,.1);
 	background:	#f7f7f7;
 	font-size: 1.4rem;
-	-webkit-appearance: none;
 }
 
 input,
@@ -672,6 +671,19 @@ input[type="reset"]:active {
 
 .post-password-required input[type="submit"]:active {
 	padding: 5px 24px 6px;
+}
+
+/* Radio, Checkbox and Select Styling */
+
+input[type="radio"], input[type="checkbox"] {
+	vertical-align: middle;
+	top: 4px;
+	margin-right: 5px;
+	position: relative;
+}
+
+select {
+
 }
 
 /* Placeholder text color -- selectors need to be separate to work. */

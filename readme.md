@@ -1,5 +1,6 @@
 Life Is Good
 ============
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/kLOsk/lifeisgood?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 **Theme Name:** Life Is Good
 **Theme URI:** http://www.daniel-klose.com/online-services/life-is-good-wordpress-theme/
 **Author:** Daniel Klose
